@@ -1,8 +1,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import ast
-from rank_bm25 import BM25Okapi
 import nmslib
 from gensim.models.fasttext import FastText
 from time import time
