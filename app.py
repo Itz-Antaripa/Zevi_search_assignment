@@ -16,7 +16,7 @@ ft_model_trans = FastText.load('fasttext_vectors_trans_.model') #load
 
 # We are using Non-metric space library for first indexing and search
 nmslib_index = nmslib.init(method='hnsw', space='cosinesimil')
-nmslib_index.loadIndex("nmslib_index.bin")  # Loading the already trained index
+nmslib_index.loadIndex("nmslib_index_.bin")  # Loading the already trained index
 
 def get_query_vector(text):
   text = text.lower().split()
