@@ -1,0 +1,4 @@
+pandas
+numpy
+nmslib
+gensim==3.6.0

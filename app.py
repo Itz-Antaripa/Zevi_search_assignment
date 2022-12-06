@@ -4,8 +4,6 @@ import numpy as np
 import nmslib
 from gensim.models.fasttext import FastText
 from time import time
-import warnings
-warnings.filterwarnings("ignore")
 
 df = pd.read_csv('Zevi_final_dataset.csv')
 # print(df.head())
