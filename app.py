@@ -11,7 +11,7 @@ df = pd.read_csv('Zevi_final_dataset.csv')
 text_list = df['combined_clean_text'].tolist()
 tok_text_list = [text.split() for text in text_list]
 
-ft_model_trans = FastText.load('fasttext_vectors_trans.model') #load
+ft_model_trans = FastText.load('fasttext_vectors_trans_.model') #load
 
 
 # We are using Non-metric space library for first indexing and search
